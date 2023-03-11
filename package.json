@@ -6,15 +6,35 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "release-it",
+    "commit": "git-cz"
   },
   "dependencies": {
     "vue": "^3.2.45"
   },
   "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
     "@vitejs/plugin-vue": "^4.0.0",
+    "git-cz": "^4.9.0",
+    "release-it": "^15.8.0",
     "typescript": "^4.9.3",
     "vite": "^4.1.0",
     "vue-tsc": "^1.0.24"
-  }
+  },
+  "description": "This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PshuHao/v3_ts_demo.git"
+  },
+  "keywords": [
+    "psh_demo"
+  ],
+  "author": "sunhalo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PshuHao/v3_ts_demo/issues"
+  },
+  "homepage": "https://github.com/PshuHao/v3_ts_demo#readme"
 }
